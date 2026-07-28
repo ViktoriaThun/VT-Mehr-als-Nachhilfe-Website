@@ -474,6 +474,11 @@ ul{margin:0;padding:0;list-style:none;}
 .legal-block a:hover{color:var(--terracotta);}
 .legal-block ul{list-style:disc;padding-left:22px;margin:0 0 12px;}
 .legal-block li{font-size:15.5px;color:var(--ink-soft);margin-bottom:6px;}
+
+/* ============ THANK YOU ============ */
+.thankyou{padding:200px 0 160px;min-height:60vh;display:flex;align-items:center;}
+.thankyou-inner{max-width:640px;margin:0 auto;text-align:center;}
+.thankyou-actions{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:36px;}
 .legal-placeholder{color:var(--terracotta);font-weight:600;}
 
 /* ============ RESPONSIVE ============ */
