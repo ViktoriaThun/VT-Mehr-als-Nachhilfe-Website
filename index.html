@@ -342,7 +342,20 @@
       <p class="eyebrow eyebrow-light">Bereit für den nächsten Schritt?</p>
       <h2>Lassen Sie uns Ihr Kind gemeinsam auf seinem <span class="italic">Lernweg</span> begleiten.</h2>
       <p class="final-cta-sub">Im kostenlosen Kennenlerngespräch finden wir gemeinsam heraus, wo Ihr Kind steht und wie wir es am besten unterstützen.</p>
-      <a href="mailto:hallo@mein-alltagsglueck.de" class="btn btn-primary btn-lg magnetic"><span>Kennenlerngespräch anfragen</span></a>
+
+      <form class="contact-form reveal" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="Neue Anfrage über MEHR als Nachhilfe">
+        <input type="hidden" name="from_name" value="MEHR als Nachhilfe – Kontaktformular">
+        <input type="checkbox" name="botcheck" class="contact-form-hp" tabindex="-1" autocomplete="off">
+
+        <input type="text" name="name" placeholder="Ihr Name" aria-label="Ihr Name" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" aria-label="Ihre E-Mail-Adresse" required>
+        <textarea name="message" placeholder="Ihre Nachricht" aria-label="Ihre Nachricht" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary btn-lg magnetic"><span>Nachricht senden</span></button>
+      </form>
+
+      <p class="final-cta-note">Oder schreiben Sie direkt eine E-Mail an <a href="mailto:hallo@mein-alltagsglueck.de">hallo@mein-alltagsglueck.de</a></p>
     </div>
   </section>
 
