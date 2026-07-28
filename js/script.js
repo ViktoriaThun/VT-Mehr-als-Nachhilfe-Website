@@ -98,7 +98,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 // ===== CONTACT FORM REDIRECT =====
 const contactForm = document.getElementById('contactForm');
-if (contactForm) {
+if (contactForm && window.location.protocol.startsWith('http')) {
   const redirectInput = contactForm.querySelector('input[name="redirect"]');
   if (redirectInput) {
     redirectInput.value = new URL('danke.html', window.location.href).href;
